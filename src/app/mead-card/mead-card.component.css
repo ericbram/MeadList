@@ -1,0 +1,22 @@
+.mead-card {
+    width: 400px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.mead-header-right {
+  display: inline-block;
+  position:absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 40px;
+}
+
+mat-card-content {
+    margin-left: 8px;
+}
+
+.button-remove-div {
+    margin: 0 auto;
+    width: 100px;
+}

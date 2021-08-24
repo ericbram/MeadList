@@ -1,1 +1,20 @@
-<p>mead-card works!</p>
+<mat-card class="mead-card">
+    <mat-card-header>
+      <mat-card-title>{{ meadTitle }}</mat-card-title>
+      <mat-card-subtitle>{{ meadDate }}, {{ meadPercent }}</mat-card-subtitle>
+      <div class="mead-header-right">
+          {{ meadNumber }}
+      </div>
+    </mat-card-header>
+    <hr noshade /><br />
+    <mat-card-content>
+      <p>
+        {{ meadDescription }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <div class="button-remove-div">
+            <button class="button-remove" mat-raised-button color="warn">Remove</button>
+        </div>
+    </mat-card-actions>
+</mat-card>
