@@ -14,5 +14,8 @@ export class MeadCardTableComponent implements OnInit {
   removeCard(card: any) {
     this.model = this.model.filter((x: { id: number; }) => x.id !== card.id);
   }
+  addCard(card: any){
+    console.log(card);
+  }
 
 }
