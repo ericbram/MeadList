@@ -1,182 +1,368 @@
-#1 - White Cranberry Peach
-July 9th, 2015, 18%
-
-#2 - Cranberry Pomegranate
-July 9th, 2015,  14%
-
-#3 - Heavy Black Cherry
-August 30th, 2015, 12%
-
-#4 - Apple Date Raison
-October 21st, 2015, 14.5%
-
-#5 - Apple Pie
-August 30th, 2015, 12%
-
-#6 - Pumpkin Pie
-August 30th, 2015, 12%
-
-#7 - Traditional Orange Blossom
-December 13th, 2015, 15%
-
-#8 Traditional Blackberry
-February 26th, 2016, 13%
-
-#9 Traditional Mesquite
-February 14th, 2016, 12%
-
-#10 Traditional Frankenstein
-February 26th, 2016, 13%
-
-#11 Traditional Carrot
-February 26th, 2016, 12%
-
-#12 Traditional Meadowfoam
-February 26th, 2016, 13%
-
-#13 Traditional Orange and Buckwheat
-March 12th, 2016, 9%
-
-#14 Triple Berry
-March 10th, 2016, 13%
-
-
-#15 Strawberry Blend
-March 10th, 2016, 11%
-
-#16 Rose
-March 9th, 2016, 11%
-
-#17 Blueberry
-December 13th, 2015, 15%
-
-#18 Raspberry
-December 13th, 2015, 15%
-
-#19 Blueberry /w Lactose
-December 13th, 2015, 15%
-
-#20 Raspberry /w Lactose
-December 13th, 2015, 15%
-
-#21 Raspberry /w Honey
-December 13th, 2015, 15%
-
-#22 Blueberry /w Honey
-December 13th, 2015, 15%
-
-#23 Chamomile Vanilla
-September 11th, 2016, 12%
-
-#24 Elderberry
-June 12th, 2016, 12%
-
-#25 Reisling - Wine
-October 8th, 2016, 11%
-
-#26 Hopped Cyser
-September 18th, 2016, 13%
-
-#27 Chambourcin - Wine
-October 8th, 2016, 12%
-
-#28 Cyser
-September 18th, 2016, 12%
-
-
-#29 Seagrape traditional
-November 7th, 2016, 10%
-
-#30 Oaked Concord Pyment
-October 8th, 2016, 14%
-
-#31 Thai Indigo
-September 11th, 2016, 12%
-
-#32 Banana Grape
-July 25th, 2016, 12%
-
-#33 Oaked Mangrove Traditional
-November 7th, 2016, 10%
-
-#34 Chambourcin Pyment
-October 8th, 2016, 14%
-
-#35 Sweetened Cyser
-September 18th, 2016, 12%
-
-#36 Pyment
-December 11th, 2016, 10%
-
-#37 Oaked Chambourcin Pyment
-October 8th, 2016, 14%
-
-#38 Sweet Oaked Chambourcin Pyment
-October 8th, 2016, 14%
-
-#39 Tart Cherry
-December 18th, 2016, 11%
-
-#40 Cherry
-
-#41 Blueberry
-January 16th, 2017, 12%
-
-#42 Oaked Blueberry
-January 16th, 2017, 12%
-#43 Sweet Oaked Blueberry Vanilla
-January 16th, 2017, 12%
-
-#44 Sweet Blueberry Vanilla
-January 16th, 2017, 12%
-
-#45 Sweet Hopped Blueberry
-January 16th, 2017, 12%
-
-#46 Sweet Peach
-March 12th, 2017, 12%
-
-#47 White Sage Traditional
-JPApril 28th, 2018, 13%
-
-#48 Bochet
-January 28th, 2018, 13%
-
-#49 Hopped
-January 21st, 2018, 14%
-
-#50 Strawberry
-October 8th, 2017, 9%
-
-#51 Blackbrier
-December 3rd, 2017, 12%
-
-#52 Sweet Cherry
-December 8th, 2017, 10%
-
-#53 Mixed Berry /w Black Currant
-December 3rd, 2017, 12%
-
-#54 Hopped Passionfruit /w Blueberry Honey
-April 1st, 2018, 14%
-
-#55 Hopped Passionfruit /w Star Thistle Honey
-April 28th, 2018, 14%
-
-#56 Strawberry /w Welle Honey
-July 8th, 2018, 14%
-
-#57 Traditional Red Bamboo
-December 3rd, 2017, 12%
-
-#58 Sweet Strawberry /w Welle Honey
-July 8th, 2018, 14%
-
-#59 Pumpkin Honey with Thai Pea Blossom
-December 3rd, 2017, 14%
-
-#60 Pear with cinnamon and nutmeg
-October 6th, 2018, 12%
-
-#61 Pear Pear with cinnamon
-October 6th, 2018, 12%
+[
+    {
+        "id": 1,
+        "name": "White Cranberry Peach",
+        "date": "July 9th, 2015",
+        "percent": 18
+    },
+    {
+        "id": 2,
+        "name": "Cranberry Pomegranate",
+        "date": "July 9th, 2015",
+        "percent": 14
+    },
+    {
+        "id": 3,
+        "name": "Heavy Black Cherry",
+        "date": "August 30th, 2015",
+        "percent": 12
+    },
+    {
+        "id": 4,
+        "name": "Apple Date Raison",
+        "date": "October 21st, 2015",
+        "percent": 14
+    },
+    {
+        "id": 5,
+        "name": "Apple Pie",
+        "date": "August 30th, 2015",
+        "percent": 12
+    },
+    {
+        "id": 6,
+        "name": "Pumpkin Pie",
+        "date": "August 30th, 2015",
+        "percent": 12
+    },
+    {
+        "id": 7,
+        "name": "Traditional Orange Blossom",
+        "date": "December 13th, 2015",
+        "percent": 15
+    },
+    {
+        "id": 8,
+        "name": "Traditional Blackberry",
+        "date": "February 26th, 2016",
+        "percent": 13
+    },
+    {
+        "id": 9,
+        "name": "Traditional Mesquite",
+        "date": "February 14th, 2016",
+        "percent": 12
+    },
+    {
+        "id": 10,
+        "name": "Traditional Frankenstein",
+        "date": "February 26th, 2016",
+        "percent": 13
+    },
+    {
+        "id": 11,
+        "name": "Traditional Carrot",
+        "date": "February 26th, 2016",
+        "percent": 12
+    },
+    {
+        "id": 12,
+        "name": "Traditional Meadowfoam",
+        "date": "February 26th, 2016",
+        "percent": 13
+    },
+    {
+        "id": 13,
+        "name": "Traditional Orange and Buckwheat",
+        "date": "March 12th, 2016",
+        "percent": 9
+    },
+    {
+        "id": 14,
+        "name": "Triple Berry",
+        "date": "March 10th, 2016",
+        "percent": 13
+    },
+    {
+        "id": 15,
+        "name": "Strawberry Blend",
+        "date": "March 10th, 2016",
+        "percent": 11
+    },
+    {
+        "id": 16,
+        "name": "Rose",
+        "date": "March 9th, 2016",
+        "percent": 11
+    },
+    {
+        "id": 17,
+        "name": "Blueberry",
+        "date": "December 13th, 2015",
+        "percent": 15
+    },
+    {
+        "id": 18,
+        "name": "Raspberry",
+        "date": "December 13th, 2015",
+        "percent": 15
+    },
+    {
+        "id": 19,
+        "name": "Blueberry /w Lactose",
+        "date": "December 13th, 2015",
+        "percent": 15
+    },
+    {
+        "id": 20,
+        "name": "Raspberry /w Lactose",
+        "date": "December 13th, 2015",
+        "percent": 15
+    },
+    {
+        "id": 21,
+        "name": "Raspberry /w Honey",
+        "date": "December 13th, 2015",
+        "percent": 15
+    },
+    {
+        "id": 22,
+        "name": "Blueberry /w Honey",
+        "date": "December 13th, 2015",
+        "percent": 15
+    },
+    {
+        "id": 23,
+        "name": "Chamomile Vanilla",
+        "date": "September 11th, 2016",
+        "percent": 12
+    },
+    {
+        "id": 24,
+        "name": "Elderberry",
+        "date": "June 12th, 2016",
+        "percent": 12
+    },
+    {
+        "id": 25,
+        "name": "Reisling - Wine",
+        "date": "October 8th, 2016",
+        "percent": 11
+    },
+    {
+        "id": 26,
+        "name": "Hopped Cyser",
+        "date": "September 18th, 2016",
+        "percent": 13
+    },
+    {
+        "id": 27,
+        "name": "Chambourcin - Wine",
+        "date": "October 8th, 2016",
+        "percent": 12
+    },
+    {
+        "id": 28,
+        "name": "Cyser",
+        "date": "September 18th, 2016",
+        "percent": 12
+    },
+    {
+        "id": 29,
+        "name": "Seagrape Traditional",
+        "date": "November 7th, 2016",
+        "percent": 10
+    },
+    {
+        "id": 30,
+        "name": "Oaked Concord Pyment",
+        "date": "October 8th, 2016",
+        "percent": 14
+    },
+    {
+        "id": 31,
+        "name": "Thai Indigo",
+        "date": "September 11th, 2016",
+        "percent": 12
+    },
+    {
+        "id": 32,
+        "name": "Banana Grape",
+        "date": "July 25th, 2016",
+        "percent": 12
+    },
+    {
+        "id": 33,
+        "name": "Oaked Mangrove Traditional",
+        "date": "November 7th, 2016",
+        "percent": 10
+    },
+    {
+        "id": 34,
+        "name": "Chambourcin Pyment",
+        "date": "October 8th, 2016",
+        "percent": 14
+    },
+    {
+        "id": 35,
+        "name": "Sweetened Cyser",
+        "date": "September 18th, 2016",
+        "percent": 12
+    },
+    {
+        "id": 36,
+        "name": "Pyment",
+        "date": "December 11th, 2016",
+        "percent": 10
+    },
+    {
+        "id": 37,
+        "name": "Oaked Chambourcin Pyment",
+        "date": "October 8th, 2016",
+        "percent": 14
+    },
+    {
+        "id": 38,
+        "name": "Sweet Oaked Chambourcin Pyment",
+        "date": "October 8th, 2016",
+        "percent": 14
+    },
+    {
+        "id": 39,
+        "name": "Tart Cherry",
+        "date": "December 18th, 2016",
+        "percent": 11
+    },
+    {
+        "id": 40,
+        "name": "Cherry",
+        "date": "December 18th, 2016",
+        "percent": 11
+    },
+    {
+        "id": 41,
+        "name": "Blueberry",
+        "date": "January 16th, 2017",
+        "percent": 12
+    },
+    {
+        "id": 42,
+        "name": "Oaked Blueberry",
+        "date": "January 16th, 2017",
+        "percent": 12
+    },
+    {
+        "id": 43,
+        "name": "Sweet Oaked Blueberry Vanilla",
+        "date": "January 16th, 2017",
+        "percent": 12
+    },
+    {
+        "id": 44,
+        "name": "Sweet Blueberry Vanilla",
+        "date": "January 16th, 2017",
+        "percent": 12
+    },
+    {
+        "id": 45,
+        "name": "Sweet Hopped Blueberry",
+        "date": "January 16th, 2017",
+        "percent": 12
+    },
+    {
+        "id": 46,
+        "name": "Sweet Peach",
+        "date": "March 12th, 2017",
+        "percent": 12
+    },
+    {
+        "id": 47,
+        "name": "White Sage Traditional",
+        "date": "April 28th, 2018",
+        "percent": 13
+    },
+    {
+        "id": 48,
+        "name": "Bochet",
+        "date": "January 28th, 2018",
+        "percent": 13
+    },
+    {
+        "id": 49,
+        "name": "Hopped",
+        "date": "January 21st, 2018",
+        "percent": 14
+    },
+    {
+        "id": 50,
+        "name": "Strawberry",
+        "date": "October 8th, 2017",
+        "percent": 9
+    },
+    {
+        "id": 51,
+        "name": "Blackbrier",
+        "date": "December 3rd, 2017",
+        "percent": 12
+    },
+    {
+        "id": 52,
+        "name": "Sweet Cherry",
+        "date": "December 8th, 2017",
+        "percent": 10
+    },
+    {
+        "id": 53,
+        "name": "Mixed Berry /w Black Currant",
+        "date": "December 3rd, 2017",
+        "percent": 12
+    },
+    {
+        "id": 54,
+        "name": "Hopped Passionfruit /w Blueberry Honey",
+        "date": "April 1st, 2018",
+        "percent": 14
+    },
+    {
+        "id": 55,
+        "name": "Hopped Passionfruit /w Star Thistle Honey",
+        "date": "April 28th, 2018",
+        "percent": 14
+    },
+    {
+        "id": 56,
+        "name": "Strawberry /w Welle Honey",
+        "date": "July 8th, 2018",
+        "percent": 14
+    },
+    {
+        "id": 57,
+        "name": "Red Bamboo Traditional",
+        "date": "December 3rd, 2017",
+        "percent": 12
+    },
+    {
+        "id": 58,
+        "name": "Sweet Strawberry /w Welle Honey",
+        "date": "uly 8th, 2018",
+        "percent": 14
+    },
+    {
+        "id": 59,
+        "name": "Pumpkin Honey with Thai Pea Blossom",
+        "date": "December 3rd, 2017",
+        "percent": 14
+    },
+    {
+        "id": 60,
+        "name": "Pear with cinnamon and nutmeg",
+        "date": "October 6th, 2018",
+        "percent": 12
+    },
+    {
+        "id": 61,
+        "name": "Pear with cinnamon",
+        "date": "October 6th, 2018",
+        "percent": 12
+    }
+]

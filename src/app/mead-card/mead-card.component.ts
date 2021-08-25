@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-mead-card',
@@ -6,15 +6,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mead-card.component.css']
 })
 export class MeadCardComponent implements OnInit {
-  public meadTitle = 'Raspberry';
-  public meadDate = '10/10/1010';
-  public meadPercent = '15%';
-  public meadNumber = 3;
+  @Input() data: any;
+  public name = '';
+  public date = '';
+  public percent = '';
+  public id = 0;
   public meadDescription = 'A tasty mead-flavored mead.';
-  
-  constructor() { }
+
+  @Output() delete: EventEmitter<string> = new EventEmitter();
+
+  constructor() { 
+  }
 
   ngOnInit(): void {
+    this.name = this.data.name;
+    this.date = this.data.date;
+    this.percent = this.data.percent;
+    this.id = this.data.id;
+  }
+
+  remove() {
+    this.delete.emit(this.data);
   }
 
 }

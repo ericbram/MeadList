@@ -1,1 +1,3 @@
-<app-mead-card></app-mead-card>
+<div *ngFor="let card of model">
+    <app-mead-card [data]="card" (delete)="removeCard($event)"></app-mead-card>
+</div>
