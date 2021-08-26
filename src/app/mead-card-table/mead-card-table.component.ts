@@ -5,17 +5,21 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./mead-card-table.component.css']
 })
 export class MeadCardTableComponent implements OnInit {
-  @Input() model: any;
+  @Input() jsonData: any;
+  activeCards: any[] = new Array(6).fill(null);
   constructor() { }
 
-  ngOnInit(): void { 
+  ngOnInit(): void {
   }
 
   removeCard(card: any) {
-    this.model = this.model.filter((x: { id: number; }) => x.id !== card.id);
+    this.activeCards[card.index] = null;
+    console.log(this.activeCards);
   }
   addCard(card: any){
-    console.log(card);
+    var index = card.index;
+    card = this.jsonData.filter((c: { id: number; }) => c.id == card.id)[0];
+    this.activeCards[index] = card;
   }
 
 }

@@ -7,6 +7,7 @@ import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 })
 export class MeadCardComponent implements OnInit {
   @Input() data: any;
+  @Input() index: number | undefined;
   public name = '';
   public date = '';
   public percent = '';
@@ -26,6 +27,7 @@ export class MeadCardComponent implements OnInit {
   }
 
   remove() {
+    this.data.index = this.index;
     this.delete.emit(this.data);
   }
 

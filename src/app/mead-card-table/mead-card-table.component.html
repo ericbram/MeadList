@@ -1,4 +1,6 @@
-<app-mead-card-placeholder (add)="addCard($event)"></app-mead-card-placeholder>
-<div *ngFor="let card of model">
-    <app-mead-card [data]="card" (delete)="removeCard($event)" (add)="addCard($event)"></app-mead-card>
-</div>
+<mat-grid-list cols="2" rowHeight="3:1">
+    <mat-grid-tile *ngFor="let card of activeCards;let indexOfelement=index;">
+        <app-mead-card-placeholder *ngIf="!card" [data]="card" [index]="indexOfelement" (add)="addCard($event)"></app-mead-card-placeholder>
+        <app-mead-card *ngIf="card" [data]="card"  [index]="indexOfelement" (delete)="removeCard($event)" (add)="addCard($event)"></app-mead-card>
+    </mat-grid-tile>
+</mat-grid-list>

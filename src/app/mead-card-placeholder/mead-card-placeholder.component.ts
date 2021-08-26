@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 
 @Component({
@@ -7,16 +7,21 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./mead-card-placeholder.component.css']
 })
 export class MeadCardPlaceholderComponent implements OnInit {
-  meadId: number | undefined;
+  @Input() data: any;
+  @Input() index: number | undefined;
+  id: string = '';
 
-  @Output() add: EventEmitter<number> = new EventEmitter();
+  @Output() add: EventEmitter<any> = new EventEmitter();
   constructor() { }
 
   ngOnInit(): void {
   }
 
   addCard(): void {
-    this.add.emit(this.meadId);
+    this.data = {
+      id: this.id,
+      index: this.index
+    }
+    this.add.emit(this.data);
   }
-
 }
