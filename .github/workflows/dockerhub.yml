@@ -25,7 +25,7 @@ jobs:
     - name: Prepare
       id: prep
       run: |
-        DOCKER_IMAGE=ericbramhome/taplist
+        DOCKER_IMAGE=ebramhome/taplist
         VERSION=development
         if [[ ! -z "${{ github.event.inputs.tagName }}" ]]; then
           VERSION=${{ github.event.inputs.tagName }}
