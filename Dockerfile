@@ -21,7 +21,7 @@ RUN rm -rf /usr/share/nginx/html/*
 USER nginx
 
 COPY default.conf /etc/nginx/conf.d/default.conf
-COPY --from=builder /ng-app/dist /usr/share/nginx/html
+COPY --from=builder /ng-app/dist/meadlist /usr/share/nginx/html
 
 EXPOSE 8080
 
