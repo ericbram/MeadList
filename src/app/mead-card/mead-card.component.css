@@ -1,7 +1,10 @@
 .mead-card {
     width: 500px;
+    min-height: 150px;
     border-radius: 25px;
     margin: 10px;
+    background-color: white;
+    color: black;
 }
 
 .mead-header-right {
@@ -9,14 +12,24 @@
   position:absolute;
   right: 20px;
   top: 20px;
-  font-size: 40px;
-}
-
-mat-card-content {
-    margin-left: 8px;
+  font-size: 50px;
 }
 
 .button-remove-div {
     margin: 0 auto;
     width: 100px;
+}
+
+.mat-card-title {
+    font-size: 30px;
+}
+
+.mat-card-subtitle {
+    font-size: 20px;
+    color: black;
+}
+
+
+.mat-card-actions {
+    margin-top: 25px;
 }

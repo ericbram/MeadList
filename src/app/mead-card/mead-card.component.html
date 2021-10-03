@@ -3,15 +3,9 @@
       <mat-card-title>{{ name }}</mat-card-title>
       <mat-card-subtitle>{{ date }}, {{ percent }}%</mat-card-subtitle>
       <div class="mead-header-right">
-          {{ id }}
+          #{{ id }}
       </div>
     </mat-card-header>
-    <hr noshade /><br />
-    <mat-card-content>
-      <p>
-        {{ meadDescription }}
-      </p>
-    </mat-card-content>
     <mat-card-actions>
         <div class="button-remove-div">
             <button class="button-remove" mat-raised-button color="warn" (click)="remove()">Remove</button>
