@@ -13,13 +13,10 @@ RUN $(npm bin)/ng build --configuration production
 
 ### Stage 2: Setup ###
 
-FROM nginxinc/nginx-unprivileged:stable-alpine
+FROM arm32v6/nginx
 
 # Clear all original files
-USER root
 RUN rm -rf /usr/share/nginx/html/*
-USER nginx
-
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /ng-app/dist/meadlist /usr/share/nginx/html
 
