@@ -16,7 +16,6 @@ RUN $(npm bin)/ng build --configuration production
 FROM arm32v6/nginx:alpine
 
 # Clear all original files
-RUN rm -rf /usr/share/nginx/html/*
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /ng-app/dist/meadlist /usr/share/nginx/html
 
