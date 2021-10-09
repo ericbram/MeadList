@@ -13,7 +13,7 @@ RUN $(npm bin)/ng build --configuration production
 
 ### Stage 2: Setup ###
 
-FROM arm32v6/nginx
+FROM arm32v6/nginx:alpine
 
 # Clear all original files
 RUN rm -rf /usr/share/nginx/html/*
