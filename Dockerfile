@@ -1,4 +1,4 @@
-FROM node as builder
+FROM node:16 as builder
 
 COPY package.json package-lock.json ./
 
